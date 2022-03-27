@@ -1,5 +1,7 @@
-from sys import modules
-from modules import module
+import socket
+from IPy import IP
+from modules import ip
 
 if __name__ == "__main__":
-    print(module.hello)
+    text = ip.get_ip()
+    print(text)
